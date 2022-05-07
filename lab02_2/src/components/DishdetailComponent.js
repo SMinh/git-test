@@ -82,13 +82,11 @@ class DishDetail extends Component {
     });
 
     return (
-      <div>
-        <div className="container">
-          <div className="row">{menus}</div>
-          <div className="row">{this.renderDish(this.state.selectedDish)}</div>
-          <div className="row">
-            {this.renderComments(this.state.selectedDish)}
-          </div>
+      <div className="container">
+        <div className="row">{menus}</div>
+        <div className="row">{this.renderDish(this.state.selectedDish)}</div>
+        <div className="row">
+          {this.renderComments(this.state.selectedDish)}
         </div>
       </div>
     );

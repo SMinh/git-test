@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
-import Menu from "./components/MenuComponent";
+// import Menu from "./components/MenuComponent";
 import Dishdetail from "./components/DishdetailComponent";
 import { Navbar, NavbarBrand } from "reactstrap";
 import "./App.css";
